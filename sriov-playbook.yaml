@@ -1,0 +1,5 @@
+- hosts: all
+  vars:
+    sriov_pf_name: "eno1"
+  roles:
+    - sriov
