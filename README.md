@@ -1,6 +1,11 @@
 Aether Ansible
 ==============
 
+```bash
+ansible-playbook -b -i hosts.ini sriov-playbook.yaml
+```
+
+
 Ansible is an automation tool used to install software and configure systems.
 It's frequently used either standalone or in concert with other
 operations-focused software.
